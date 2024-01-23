@@ -6,9 +6,10 @@ import  profile from '../../assets/Svg/Group 1082.svg';
 import { NavLink } from 'react-router-dom';
 
 const Main_nav = () => {
+
   return (
     <> 
-      <div style={{borderBottom:'1px solid #dedddc'}} className="items-center h-full w-full  sticky flex justify-between">
+      <div style={{borderBottom:'1px solid #dedddc'}} className="items-center  w-full  sticky flex justify-between">
           <div className="flex  items-center ">
             <div className="w-full items-center  flex">
                 <img src={logo} className='w-[70%] object-contain' alt="" />
