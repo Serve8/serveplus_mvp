@@ -1,10 +1,22 @@
-import React from 'react'
+import SLayout from "../SLayout"
+import { Routes, Route } from "react-router-dom"
+import SMain from "../SMain"
+import SProduct from "../SProduct"
 
 const Shome = () => {
   return (
-    <div>
+    <Routes>
       
-    </div>
+      <Route path="/seller" element={<SLayout />} >
+
+        <Route index element={<SMain />} />
+        <Route index path="/product" element={<SProduct />} >
+
+        </Route>
+
+      </Route>
+    
+    </Routes>
   )
 }
 
