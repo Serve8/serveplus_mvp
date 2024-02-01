@@ -17,7 +17,7 @@ const Main_nav = () => {
             </div>
           </div> 
           <div className="items-start w-full justify-center flex gap-8 ">
-              <NavLink to="/" className="text-[25px] font-[600]">Home</NavLink>
+              <NavLink to="/Shome" className="text-[25px] font-[600]">Home</NavLink>
               <NavLink to="/Explore" className="text-[25px] font-[600]">Explore</NavLink>
           </div>  
               <input style={{ outline:'none', border:'1px solid #D9D9D9', borderRadius:'20px' }} className="p-2 w-full bg-[#D9D9D9]" placeholder="Search for items" />

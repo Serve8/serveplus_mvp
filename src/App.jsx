@@ -9,6 +9,7 @@ import SProduct from './component/Sellers/SProduct'
 import SAddProduct from './component/Sellers/SAddProduct'
 
 
+
 function App() {
  
   return (
@@ -29,8 +30,8 @@ function App() {
         <Route path="/Explore" element={<Explore/>} />
         <Route path="/Signup" element={<Signup/>} />
 
-       {/* <Route path="/Chat" element={<Chat />}/>
-        <Route path="/Auction" element={<Auction />} />
+        <Route path="/S_nav" element={<Sellers_nav />}/>
+       {/* <Route path="/Auction" element={<Auction />} />
         <Route path="/profile" element={<Profile />} /> */}
       </Routes>
     </>
